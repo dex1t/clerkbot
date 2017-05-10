@@ -1,0 +1,13 @@
+{
+  "name": "clerkbot",
+  "version": "1.0.0",
+  "description": "a Slack bot to interact with Intercom for Customer Success",
+  "main": "index.js",
+  "repository": "git@github.com:dex1t/clerkbot.git",
+  "author": "dex1t <dex1t@degoo.org>",
+  "license": "MIT",
+  "dependencies": {
+    "botkit": "^0.5.4",
+    "intercom-client": "^2.8.7"
+  }
+}
