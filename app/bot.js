@@ -6,7 +6,7 @@ const url = require('url');
 
 const redisURL = url.parse(process.env.REDISTOGO_URL || process.env.REDIS_URL);
 const redisStorage = require('botkit-storage-redis')({
-  namespace: 'sparrowbot',
+  namespace: 'clerkbot',
   host: redisURL.hostname,
   port: redisURL.port,
   auth_pass: redisURL.auth && redisURL.auth.split(':')[1],
